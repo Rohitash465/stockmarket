@@ -24,6 +24,24 @@
             font-size: 36px;
         }
 
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7);
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #0074cc;
+        }
+
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -69,6 +87,14 @@
     </style>
 </head>
 <body>
+    
+    <div class="navbar">
+        <a href="#enroll">Enroll Now</a>
+        <a href="#learn">What You'll Learn</a>
+        <a href="#choose">Why Choose Us</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#get-started">Get Started</a>
+    </div>
     <header>
         <h1>Unlock the Potential of the Stock Market</h1>
     </header>
@@ -76,11 +102,10 @@
         <section>
             <h2>Welcome to Our Stock Market Mastery Course</h2>
             <p>Are you ready to take control of your financial future? Our Stock Market Mastery Course can help you gain the knowledge and skills you need to multiply your income 100x over.</p>
-            <p>Download the introductory video</p>
-            <a class="cta-button" href="https://drive.google.com/uc?id=1Z4fZz7aXjFSQPqLfO-sFR8wNjpqDEzNA">Download Now</a>
+            <a class="cta-button" href="https://drive.google.com/uc?id=1Z4fZz7aXjFSQPqLfO-sFR8wNjpqDEzNA">Enroll Now</a>
         </section>
 
-        <section id="enroll">
+        <section id="learn">
             <h2>What You'll Learn</h2>
             <p>Our course covers a wide range of topics, including:</p>
             <ul>
@@ -91,17 +116,17 @@
             </ul>
         </section>
 
-        <section>
-            <h2>Why Choose Us?</h2>
+        <section id="choose">
+            <h2>Why Choose Us</h2>
             <p>Our instructors are seasoned professionals with a proven track record in the stock market. We provide hands-on, practical training that's designed to help you achieve real results.</p>
         </section>
 
-        <section class="testimonial">
+        <section class="testimonial" id="testimonials">
             <h3>Testimonials</h3>
             <p>"Thanks to this course, I've seen my investments grow exponentially. The knowledge and strategies I gained here were game-changers!" - John D.</p>
         </section>
 
-        <section>
+        <section id="get-started">
             <h2>Ready to Get Started?</h2>
             <p>Don't miss out on this opportunity to transform your financial future. Enroll in our Stock Market Mastery Course today!</p>
             <a class="cta-button" href="#enroll">Enroll Now</a>
@@ -109,3 +134,4 @@
     </div>
 </body>
 </html>
+
